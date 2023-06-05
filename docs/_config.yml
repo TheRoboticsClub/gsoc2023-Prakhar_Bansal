@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: GSoC 2023 Robotics Academy - Migration to ROS2 Humble
+title: GSoC 2023 Robotics Academy - Cross-platform Desktop Application
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/gsoc2023-Pawan_Wadhwani" # the subpath of your site, e.g. /blog
+baseurl: "/gsoc2023-Prakhar_bansal" # the subpath of your site, e.g. /blog
 url: "https://theroboticsclub.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: username
 github_username: username
@@ -60,25 +60,25 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Pawan Wadhwani"
+  name   : "Prakhar Bansal"
   avatar : "/assets/images/bio-photo.jpeg"
-  bio    : "Computer Science graduate from SRM Institute of Science and Technology with a specialisation in Artificial Intelligence and a minor in Robotics."
+  bio    : "Computer Science graduate from SRM Institute of Science and Technology with a specialisation in Cloud Computing ."
   links:
 #    - label: "Website"
 #      icon: "fas fa-fw fa-link"
 #      url: "https://"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/pawan-wadhwani/"
+      url: "https://www.linkedin.com/in/pb3031/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/pawanw17"
+      url: "https://github.com/Prakhar-commits"
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/@pawanwadhwani"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/pawanw17"
+      url: "https://twitter.com/PrakharB__"
 #    - label: "Instagram"
 #      icon: "fab fa-fw fa-instagram"
 #      url: "https://instagram.com/"
@@ -87,16 +87,16 @@ footer:
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/pawan-wadhwani/"
+      url: "https://www.linkedin.com/in/pb3031/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/pawanw17"
+      url: "https://github.com/Prakhar-commits"
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
-      url: "https://www.youtube.com/@pawanwadhwani"
+      url: "https://www.youtube.com/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/pawanw17"
+      url: "https://twitter.com/PrakharB__"
 
 defaults:
   # _posts
