@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: GSOC 2023- Cross-Platform Desktop
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "First Lastname"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Hi My name is Prakhar I am currently enrolled in SRMIST in delhi-ncr, pursuing a B.tech in CSE with specialization in Cloud-Computing. I am a adaptive learner and who is interested in making the world a easier place through tech "
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
