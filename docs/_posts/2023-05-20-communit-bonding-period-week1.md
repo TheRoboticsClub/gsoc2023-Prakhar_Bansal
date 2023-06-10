@@ -25,5 +25,4 @@ Tested the electron activity using RADI and learned the functioning and requirem
 
 ## Plan for next week
 
-* 
-* Possibility of drone exercises migration.
+* Create a Electron instance or activity using docker
