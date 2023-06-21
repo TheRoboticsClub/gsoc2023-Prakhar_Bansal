@@ -15,8 +15,10 @@ In this week the task was to run an electron instance using django server as bac
 * Configured the electron-forge to be compatible with django server
 
 ![StaringServer](../assets/images/Codingweek1img1.png)
+
+
 ![ServingInfo](../assets/images/Codingweek1img2.png)
 
 ## Plan for next week
 
-* Create the frontend for the cross-desktop application
+* Create the frontend for the cross-platform desktop application
