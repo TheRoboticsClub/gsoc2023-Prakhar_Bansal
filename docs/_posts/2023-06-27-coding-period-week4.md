@@ -11,9 +11,9 @@ sidebar:
 
 In our recent endeavors, we dedicated our efforts to address the essential packages and dependencies essential for seamless operation of the Django server. However upon setting up our django server we encountered dependency issues which required the installation of **pylint**  and **django-corse-headers**
 
-[!Errors](../assets/images/Codingweek4img1.png)
+![Errors](../assets/images/Codingweek4img1.png)
 \
-[!Errors](../assets/images/Codingweek4img2.png)
+![Errors](../assets/images/Codingweek4img2.png)
 
 ## Work Done
 
