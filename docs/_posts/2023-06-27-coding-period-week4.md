@@ -31,3 +31,8 @@ In our recent endeavors, we dedicated our efforts to address the essential packa
 
 ## PR's Created
 [PR](https://github.com/JdeRobot/RoboticsAcademy/pull/2168)
+
+## Plan for Next Week
+
+* Serving existing frotend of Robotics Academy to electron
+* Running the application locally 
