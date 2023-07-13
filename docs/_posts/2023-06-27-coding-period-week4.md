@@ -27,10 +27,10 @@ In our recent endeavors, we dedicated our efforts to address the essential packa
 * MySQL client needs to be setup before installing the *mysqlclient* python package 
 
 ## Issues Raised
-[Issue](https://github.com/JdeRobot/RoboticsAcademy/issues/2167)
+[https://github.com/JdeRobot/RoboticsAcademy/issues/2167](https://github.com/JdeRobot/RoboticsAcademy/issues/2167)
 
 ## PR's Created
-[PR](https://github.com/JdeRobot/RoboticsAcademy/pull/2168)
+[https://github.com/JdeRobot/RoboticsAcademy/pull/2168](https://github.com/JdeRobot/RoboticsAcademy/pull/2168)
 
 ## Plan for Next Week
 
