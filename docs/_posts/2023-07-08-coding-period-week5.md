@@ -24,7 +24,7 @@ Was able to run and serve the react frontend locally inside the electron instanc
 
  For Now We were simply sending a request to the backend to serve the electron process as follows 
 
- ![Backend Server](../assets/images/Codingweek4img1.png)
+ ![Backend Server](../assets/images/Codingweek5img1.png)
 
 ## Work Done 
 * Build Electron structure for the application 
