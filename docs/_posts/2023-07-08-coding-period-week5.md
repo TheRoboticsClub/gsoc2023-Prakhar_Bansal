@@ -20,11 +20,11 @@ After this We decided to make a new frontend for the electron application but th
 
 Was able to run and serve the react frontend locally inside the electron instance but at this point the backend for the Robotics Academy was running outside the electron instance and had to be started before firing up the electron process.
 
-![Electron Instance](../assets/images/Codingweek5img2.png)
+ ![Backend Server](../assets/images/Codingweek5img1.png)
 
  For Now We were simply sending a request to the backend to serve the electron process as follows 
 
- ![Backend Server](../assets/images/Codingweek5img1.png)
+![Electron Instance](../assets/images/Codingweek5img2.png)
 
 ## Work Done 
 * Build Electron structure for the application 
