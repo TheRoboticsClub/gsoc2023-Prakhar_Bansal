@@ -9,7 +9,7 @@ sidebar:
   nav: "docs"
 ---
 
-This week after intializing and successfully serving the react frontend inside an electron instance we wanted to run the django server concurrently with the electron instance, To do so we decided to use commands to start the django server in a bash terminal using *spawn* from electron which spawns a child process which is carried out using the followind command :
+This week after intializing and successfully serving the react frontend inside an electron instance we wanted to run the django server concurrently with the electron instance, To do so we decided to use commands to start the django server in a bash terminal using *spawn* from electron which spawns a child process which is carried out using the following command :
 
 ```js
 createDjangoServer = () => {
