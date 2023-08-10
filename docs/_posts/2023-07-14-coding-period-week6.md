@@ -9,7 +9,7 @@ sidebar:
   nav: "docs"
 ---
 
-This week after intializing and successfully serving the react frontend inside an electron instance we wanted to run the django server concurrently with the electron instance, To do so we decided to use commands to start the django server in a bash terminal using *spawn* from electron which spawns a child process which is carried out using the following command :
+This week after intializing and successfully serving the react frontend inside an electron instance we wanted to run the django server concurrently with the electron instance, To do so we decided to use commands to start the django server in a bash terminal using _spawn_ from electron which spawns a child process which is carried out using the following command :
 
 ```js
 createDjangoServer = () => {
@@ -40,11 +40,17 @@ yarn start
 ```
 
 ## Work Done
-* Updated Index.js to run the Django server when the application is initialized
-* Decreased the manual commands the user had to perform previously to use Robotics Academy 
+
+- Updated Index.js to run the Django server when the application is initialized
+- Decreased the manual commands the user had to perform previously to use Robotics Academy
 
 ## Issue
+
 [https://github.com/JdeRobot/RoboticsAcademy/issues/2172](https://github.com/JdeRobot/RoboticsAcademy/issues/2172)
 
 ## PR's created
- [https://github.com/JdeRobot/RoboticsAcademy/pull/2173](https://github.com/JdeRobot/RoboticsAcademy/pull/2173)
+
+[https://github.com/JdeRobot/RoboticsAcademy/pull/2173](https://github.com/JdeRobot/RoboticsAcademy/pull/2173)
+
+## Plan For Next Week
+- Pack the robotics-academy into a cross-desktop application
