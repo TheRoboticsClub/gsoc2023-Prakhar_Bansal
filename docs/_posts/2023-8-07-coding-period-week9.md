@@ -27,15 +27,15 @@ Here are some of the technical details of the script:
    - The script runs the Docker image by running the command :
 
     
-    ```console 
+  
     docker run --rm -it -p 8000:8000 -p 2303:2303 -p 1905:1905 -p 8765:8765 -p 6080:6080.
-    ```
+  
 
 
 
 ## Work Done
 
-![Script](/docs/assets/images/Codingweek9img1.png)
+![Script](../assets/images/Codingweek9img1.png)
 
 ## Learnings
 
