@@ -1,5 +1,5 @@
 ---
-title: "Coding Period Week 9
+title: "Coding Period Week 9"
 categories:
   - Blog
 permalink: /Coding-period-week8/
@@ -26,12 +26,16 @@ Here are some of the technical details of the script:
    - The script pulls the Docker image from the registry by running the command docker pull **jderobot/robotics-academy**.
    - The script runs the Docker image by running the command :
 
-   ```docker run --rm -it -p 8000:8000 -p 2303:2303 -p 1905:1905 -p 8765:8765 -p 6080:6080.```
+    
+    ```console 
+    docker run --rm -it -p 8000:8000 -p 2303:2303 -p 1905:1905 -p 8765:8765 -p 6080:6080.
+    ```
+
 
 
 ## Work Done
 
-[!Script](/docs/assets/images/Codingweek9img1.png)
+![Script](/docs/assets/images/Codingweek9img1.png)
 
 ## Learnings
 
