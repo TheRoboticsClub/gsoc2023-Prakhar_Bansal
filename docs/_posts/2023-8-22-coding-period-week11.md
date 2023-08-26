@@ -1,40 +1,40 @@
 ---
-title: "Coding Period Week 9"
+title: "Coding Period Week 11"
 categories:
   - Blog
-permalink: /Coding-period-week9/
+permalink: /Coding-period-week11/
 toc_label: Table of Content
 toc: true
 sidebar:
   nav: "docs"
 ---
 
-Automating the Deployment of an Electron App with Docker
+Making the script for Window Users
+
+This was done so as to make the application truly cross-platform for all the users using the Windows.However it is important to note there are few prequesites before using this app in windows
+
+- You must have docker daemon running in the background
+- Your machine must have minimum 16gb RAM.
 
 In this week, I successfully built the Electron app in the out folder. However, to run the app, we previously needed to run the backend via the Docker image. This was a manual process that required the user to have Docker installed and to know how to use it.
 
-To make the process more user-friendly, I created a script that automates the deployment of the app. The script first checks if Docker is installed. If it is, the script then searches for the Dockerfile. If the Dockerfile doesn't exist, the script pulls the Docker image from the registry. Otherwise, the script runs the Docker image.
+To make the process more user-friendly, I created a script that Works for window users. The script first checks if Docker is installed. If it is, the script then searches for the Dockerfile. If the Dockerfile doesn't exist, the script pulls the Docker image from the registry. Otherwise, the script runs the Docker image.
 
 This script significantly reduces the number of steps that the user has to follow to run the app. Now, the user can simply run the script and the app will be deployed automatically.
 
 Here are some of the technical details of the script:
 
-- The script is written in Bash.
-- The script uses the subprocess module to execute the Docker commands.
+- The script is written in batch.
 - The script checks if Docker is installed by running the docker command.
 - The script searches for the Dockerfile by looking for the file Dockerfile in the current directory.
 - The script pulls the Docker image from the registry by running the command docker pull **jderobot/robotics-academy**.
 - The script runs the Docker image by running the command :
 
-  docker run --rm -it -p 8000:8000 -p 2303:2303 -p 1905:1905 -p 8765:8765 -p 6080:6080.
+  start /b docker run --rm -it -p 8000:8000 -p 2303:2303 -p 1905:1905 -p 8765:8765 -p 6080:6080 -p 1108:1108 -p 7163:7163 %image_name%
 
 ## Work Done
 
 ![Script](../assets/images/Codingweek9img1.png)
-
-## PR
-
-![https://github.com/JdeRobot/RoboticsAcademy-Desktop/commit/2e66b182c2ec90fa7deab2c7d885265c6221db82](https://github.com/JdeRobot/RoboticsAcademy-Desktop/commit/2e66b182c2ec90fa7deab2c7d885265c6221db82)
 
 ## Learnings
 
@@ -46,4 +46,4 @@ Here are some of the technical details of the script:
 
 ## Plan for Next week
 
-- Make Changes to the UI.
+- Documentation for running the Application both in Windows as well as in Linux/MacOS.
