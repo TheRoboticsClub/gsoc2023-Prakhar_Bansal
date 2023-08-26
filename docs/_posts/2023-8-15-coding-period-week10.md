@@ -19,8 +19,8 @@ To achieve a more engaging and intuitive user experience, we added interactivity
 
 ## PR's
 
-![https://github.com/JdeRobot/RoboticsAcademy-Desktop/commit/55a41c1b81267e91763f94115735ce767587e247](https://github.com/JdeRobot/RoboticsAcademy-Desktop/commit/55a41c1b81267e91763f94115735ce767587e247)
-![https://github.com/JdeRobot/RoboticsAcademy-Desktop/commit/9fe2972b13a383103008f386d12a5c48ca9eefef](https://github.com/JdeRobot/RoboticsAcademy-Desktop/commit/9fe2972b13a383103008f386d12a5c48ca9eefef)
+[https://github.com/JdeRobot/RoboticsAcademy-Desktop/commit/55a41c1b81267e91763f94115735ce767587e247](https://github.com/JdeRobot/RoboticsAcademy-Desktop/commit/55a41c1b81267e91763f94115735ce767587e247)
+[https://github.com/JdeRobot/RoboticsAcademy-Desktop/commit/9fe2972b13a383103008f386d12a5c48ca9eefef](https://github.com/JdeRobot/RoboticsAcademy-Desktop/commit/9fe2972b13a383103008f386d12a5c48ca9eefef)
 
 ## Learnings
 

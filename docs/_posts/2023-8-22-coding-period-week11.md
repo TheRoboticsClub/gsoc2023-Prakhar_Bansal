@@ -34,8 +34,6 @@ Here are some of the technical details of the script:
 
 ## Work Done
 
-![Script](../assets/images/Codingweek9img1.png)
-
 ## Learnings
 
 - The importance of automation. The script that I created automates the deployment of the Electron app. This makes the process much more user-friendly and reduces the number of steps that the user has to follow.

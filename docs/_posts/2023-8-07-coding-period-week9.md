@@ -34,7 +34,7 @@ Here are some of the technical details of the script:
 
 ## PR
 
-![https://github.com/JdeRobot/RoboticsAcademy-Desktop/commit/2e66b182c2ec90fa7deab2c7d885265c6221db82](https://github.com/JdeRobot/RoboticsAcademy-Desktop/commit/2e66b182c2ec90fa7deab2c7d885265c6221db82)
+[https://github.com/JdeRobot/RoboticsAcademy-Desktop/commit/2e66b182c2ec90fa7deab2c7d885265c6221db82](https://github.com/JdeRobot/RoboticsAcademy-Desktop/commit/2e66b182c2ec90fa7deab2c7d885265c6221db82)
 
 ## Learnings
 
