@@ -19,20 +19,24 @@ This script significantly reduces the number of steps that the user has to follo
 
 Here are some of the technical details of the script:
 
-- The script is written in Bash.
+- The script is written in **Bash**.
 - The script uses the subprocess module to execute the Docker commands.
 - The script checks if Docker is installed by running the docker command.
 - The script searches for the Dockerfile by looking for the file Dockerfile in the current directory.
 - The script pulls the Docker image from the registry by running the command docker pull **jderobot/robotics-academy**.
 - The script runs the Docker image by running the command :
 
+```
   docker run --rm -it -p 8000:8000 -p 2303:2303 -p 1905:1905 -p 8765:8765 -p 6080:6080.
+```
 
 ## Work Done
 
 ![Script](../assets/images/Codingweek9img1.png)
 
-## PR
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AJICO2IiylM?si=ChFYKrs8y_MOeeBR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## PR'S Created
 
 [https://github.com/JdeRobot/RoboticsAcademy-Desktop/commit/2e66b182c2ec90fa7deab2c7d885265c6221db82](https://github.com/JdeRobot/RoboticsAcademy-Desktop/commit/2e66b182c2ec90fa7deab2c7d885265c6221db82)
 

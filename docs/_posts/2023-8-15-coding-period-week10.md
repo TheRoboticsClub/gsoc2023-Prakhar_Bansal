@@ -15,7 +15,7 @@ To achieve a more engaging and intuitive user experience, we added interactivity
 
 ## Work Done
 
-![NEW-UI](../assets/images/Codingnweek10img1.png)
+![NEW-UI](../assets/images/Codingweek10img1.png)
 
 ## PR's
 

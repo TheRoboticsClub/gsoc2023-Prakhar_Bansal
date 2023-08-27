@@ -30,17 +30,23 @@ Here are some of the technical details of the script:
 - The script pulls the Docker image from the registry by running the command docker pull **jderobot/robotics-academy**.
 - The script runs the Docker image by running the command :
 
-  start /b docker run --rm -it -p 8000:8000 -p 2303:2303 -p 1905:1905 -p 8765:8765 -p 6080:6080 -p 1108:1108 -p 7163:7163 %image_name%
+  ```console
+  start /b docker run --rm -it -p 8000:8000 -p 2303:2303 -p 1905:1905 -p 8765:8765 -p 6080:6080 -p 1108:1108 -p 7163:7163 %image_name%start /b  docker run --rm -it -p 8000:8000 -p 2303:2303 -p 1905:1905 -p 8765:8765 -p 6080:6080 -p 1108:1108 -p 7163:7163 %image_name%
+  ```
 
 ## Work Done
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pCmZ92ybCw4?si=zkvnjaKxtaBOZ2Jl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Learnings
 
-- The importance of automation. The script that I created automates the deployment of the Electron app. This makes the process much more user-friendly and reduces the number of steps that the user has to follow.
+- The importance of automation. The script that I created automates the deployment of the Electron app. This makes the process much more user-friendly and reduces the number of steps that the user has to follow in the windows as well which previously was done by using multiple steps where in for a windows user they had to first run docker daemon then pull the image and then run the container all of it was just to run the backend.but now its been made more easy and efficient.
 
 - The power of Docker. Docker is a powerful tool that can be used to automate the deployment of applications. The script that I created uses Docker to pull and run the Docker image for the Electron app.
 
 - The importance of testing. I tested the script extensively to make sure that it was working properly. This helped me to identify and fix any errors in the script.
+
+- Scripts : The process of writing scripts in windows using batch was a learning process and task , learned so much how we can write scripts and what are the differences while writing scripts for bash and for batch.
 
 ## Plan for Next week
 
